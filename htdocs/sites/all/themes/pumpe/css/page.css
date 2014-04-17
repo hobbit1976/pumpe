@@ -1,0 +1,286 @@
+/* Page */
+#page-pumpe {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#page-pumpe .block-inner,
+#page-pumpe .region-help,
+#page-pumpe .messages,
+#page-pumpe #primary-nav,
+#page-pumpe #secondary-nav,
+#page-pumpe #breadcrumb,
+#page-pumpe #main-content > header,
+#page-pumpe #branding,
+#page-pumpe #attribution {
+	margin-left: 2px;
+}
+#page-pumpe div.content-inner {
+	margin-left: 240px;
+}
+/* Header */
+#page > header {}
+#logo {
+  margin: 0px;
+}
+#page > header > hgroup {
+  margin: 0 10px;
+}
+#site-name {}
+#site-name a    {}
+#site-name a:visited {}
+#site-name a:hover   {}
+#site-name a:focus   {}
+#site-name a:active  {}
+#site-slogan {}
+
+/* Page title */
+h1#page-title {	
+  color: #004C91;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #CCCCCC;
+  -moz-border-radius:0 0 1em 0;
+  -webkit-border-radius:0 0 1em 0;
+  border-border-radius:0 0 1em 0;
+  background:-moz-linear-gradient(top, #fff, #cccccc); /* Firefox */
+  background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#cccccc)); /* Safari, Chrome */
+  background:-webkit-linear-gradient(top, #fff, #cccccc); /* Safari, Chrome - neue Syntax! */
+  background:-o-linear-gradient(top, #fff, #cccccc); /* Opera */
+  background:-ms-linear-gradient(top, #fff, #cccccc); /* IE */
+  background:linear-gradient(top, #fff, #cccccc); /* W3C Standard */
+  width: 670px;
+  padding: 5px 0 5px 5px;
+}
+h2 {
+	color: #004C91;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #CCCCCC;
+  -moz-border-radius:0 0 1em 0;
+  -webkit-border-radius:0 0 1em 0;
+  border-border-radius:0 0 1em 0;
+  background:-moz-linear-gradient(top, #fff, #cccccc); /* Firefox */
+  background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#cccccc)); /* Safari, Chrome */
+  background:-webkit-linear-gradient(top, #fff, #cccccc); /* Safari, Chrome - neue Syntax! */
+  background:-o-linear-gradient(top, #fff, #cccccc); /* Opera */
+  background:-ms-linear-gradient(top, #fff, #cccccc); /* IE */
+  background:linear-gradient(top, #fff, #cccccc); /* W3C Standard */
+  padding: 2px 5px 2px 2px;
+	max-width: 80%;
+}
+
+/* Regions */
+.region-leaderboard {}
+.region-header {}
+.region-secondary-content {}
+.region-highlighted {}
+.region-content-aside {}
+.region-tertiary-content {}
+.region-footer {}
+
+/* Sidebars */
+.sidebar {}
+.region-sidebar-first {}
+.region-sidebar-second {}
+
+/* Footer - the main page footer only */
+#page > footer {}
+
+/* Feed icons */
+#feed-icons {}
+#feed-icons .feed-icon {}
+#feed-icons .feed-icon img {}
+#feed-icons a.feed-icon {}
+
+/* Search results list. */
+ol.search-results {
+	margin: 10px 0 1.5em 10px;
+}
+.search-results .search-result {}
+.search-results .title {
+  color: #004C91;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #CCCCCC;
+  -moz-border-radius:0 0 1em 0;
+  -webkit-border-radius:0 0 1em 0;
+  border-border-radius:0 0 1em 0;
+  background:-moz-linear-gradient(top, #fff, #cccccc); /* Firefox */
+  background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#cccccc)); /* Safari, Chrome */
+  background:-webkit-linear-gradient(top, #fff, #cccccc); /* Safari, Chrome - neue Syntax! */
+  background:-o-linear-gradient(top, #fff, #cccccc); /* Opera */
+  background:-ms-linear-gradient(top, #fff, #cccccc); /* IE */
+  background:linear-gradient(top, #fff, #cccccc); /* W3C Standard */
+  padding: 2px 5px 2px 2px;
+  max-width: 50%;}
+.search-results .search-snippet-info {}
+.search-results p {}
+.search-results .search-snippet {}
+.search-results .search-info {}
+
+span.search-info-type {}
+span.search-info-user {}
+span.search-info-date {}
+span.search-info-comment {}
+span.search-info-upload  {}
+
+/* Aggregator */
+.feed-item {}
+.feed-item header {}
+.feed-item-title {}
+.feed-item-meta {}
+.feed-item .content {}
+.feed-item footer {}
+.feed-source {}
+.feed-description {}
+
+/* Maintenance page */
+.maintenance-page #skip-link {
+  position: absolute;
+  top: -99em;
+}
+.maintenance-page footer {
+  margin: 10px 0 0;
+}
+.maintenance-page footer a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/* Prevent overflowing content */
+header[role=banner],
+.content-inner,
+.nav,
+.region-sidebar-first,
+.region-sidebar-second,
+.region-secondary-content,
+.region-tertiary-content,
+.region-footer {
+  overflow: visible;
+  word-wrap: break-word;
+}
+
+/* Content */
+#content-column {
+	min-height: 350px;
+}
+#content {
+	width: 677px;
+	padding: 10px 0px 0px 0px;
+}
+
+
+/* Kontaktformular */
+.article-type-webform { 
+  padding: 0px; 
+}
+form.webform-client-form label {
+  float: left;
+  line-height: 160%;
+  width: 120px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 13px;
+}
+form.webform-client-form input {
+  height: 20px;
+  width: 300px;
+  border: 1px solid #004C91;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+form.webform-client-form input#edit-submit {
+  width: 85px;
+  left: 120px;
+  position: relative;
+}
+form.webform-client-form .form-textarea-wrapper textarea {
+  height: 80px;
+  width: 300px;
+  border: 1px solid #004C91;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing:        content-box;
+  
+}
+
+form.webform-client-form .form-item {
+  float: left;
+  width: 600px;
+  margin: 0 0 12px 0;
+}
+form.webform-client-form {
+  position: relative;
+  width: 650px;
+}
+.webform-component-radios .form-radios  .form-item {
+	width: 115px;
+}
+.webform-component-radios .form-radios  .form-item input {
+	float: left;
+}
+.webform-component-radios .form-radios  .form-item label {
+
+  line-height: 160%;
+}
+
+/* Banner */
+div#banner {
+	width: 677px;
+}
+
+/*Block Kontaktformulare */
+#block-views-kontaktformulare-block table,
+#block-views-kontaktformulare-block td,
+#block-views-kontaktformulare-block tbody,
+#block-views-kontaktformulare-block tr {
+	margin: 0px;
+	position: relative;
+	top: 0px;
+	vertical-align: top;
+}
+#block-views-kontaktformulare-block td {
+	padding: 2px 8px 2px 0px;
+}
+#block-views-kontaktformulare-block div.block-konfakt-form-file {
+	margin: 10px 0px 10px 0px;
+}
+div.block-konfakt-form-titel {
+	margin: 5px 0px 5px 0px;
+}
+
+/* Produkte */
+.field-name-field-produkt-bild {
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+
+/* Block Views */
+.block-content .view-content .views-view-grid td div.views-field{
+	max-width: 33%;
+}
+.block-content .view-content .views-view-grid td h2.views-field-title{
+  color: #004C91;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #CCCCCC;
+  -moz-border-radius:0 0 1em 0;
+  -webkit-border-radius:0 0 1em 0;
+  border-border-radius:0 0 1em 0;
+  background:-moz-linear-gradient(top, #fff, #cccccc); /* Firefox */
+  background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#cccccc)); /* Safari, Chrome */
+  background:-webkit-linear-gradient(top, #fff, #cccccc); /* Safari, Chrome - neue Syntax! */
+  background:-o-linear-gradient(top, #fff, #cccccc); /* Opera */
+  background:-ms-linear-gradient(top, #fff, #cccccc); /* IE */
+  background:linear-gradient(top, #fff, #cccccc); /* W3C Standard */
+  padding: 2px 5px 2px 2px;
+  max-width: 30%;
+}
+.block-content .view-content .views-view-grid td h2.views-field-title a{
+  color: #004C91;	
+}
